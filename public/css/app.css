@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+footer {
+  color: white;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.box {
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
