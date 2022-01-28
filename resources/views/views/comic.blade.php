@@ -2,9 +2,9 @@
 @extends('layouts.main-layouts')
 @section('content')
     <div class="box">
-        <a href="">go home</a>
+        <a href="{{route('home')}}">GO HOME</a>
         <h3>
-            Comics
+            {{$comic -> infoComic()}}
         </h3>
     </div>
 @endsection

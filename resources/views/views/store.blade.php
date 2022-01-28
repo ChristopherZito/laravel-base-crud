@@ -4,13 +4,15 @@
         <h3>
             Comics Series:
         </h3>
-        <a href="">go comic</a>
+        
         <ul>
-             {{-- @foreach ($comics as $comic)
+            @foreach ($comics as $comic)
                 <li>
-                    {{$comic -> title}}
+                    <a href="{{route('comic', $comic ->id)}}">
+                        {{$comic -> title}}
+                    </a>
                 </li>
-            @endforeach --}}
+            @endforeach
         </ul>
     </div>
 @endsection

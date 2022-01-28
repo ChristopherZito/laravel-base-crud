@@ -14,4 +14,12 @@ class Comic extends Model
         'pages', 
 
     ];
+
+    public function infoComic()
+    {
+        echo "Comic: ". $this-> title . " - " . $this->release_date 
+        . "<br>". "Made BY: " . $this->author 
+        . "<br>". "Cap. " . "[" .$this->pages ."]"
+        ."<br>". "ID: ". $this->id;
+    }
 }

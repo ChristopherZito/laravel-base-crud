@@ -29,6 +29,10 @@ footer {
   margin: auto;
 }
 
+.box li {
+  list-style: none;
+}
+
 a {
   color: white;
   text-decoration: none;
