@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #535252;
   text-align: center;
 }
 
@@ -27,5 +27,10 @@ footer {
   color: white;
   width: 80%;
   margin: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
