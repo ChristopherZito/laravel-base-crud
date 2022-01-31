@@ -4,7 +4,9 @@
         <h3>
             Comics Series:
         </h3>
-        
+        <h3>
+            <a href="{{route('create')}}">Create new Comics</a>
+        </h3>
         <ul>
             @foreach ($comics as $comic)
                 <li>
